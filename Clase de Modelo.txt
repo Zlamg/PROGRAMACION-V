@@ -1,0 +1,37 @@
+MODELO
+
+APRENDER A DISEÑAR BASES DE DATOS
+DISEÑO DE BASES DE DATOS::::regla de kiss en programacion
+UK  en base de datos:::  Clave Candidata
+
+QUE ES PIBOTE EN BASES DE DATOS
+
+Objetos DTO
+Objeto de transferencia de datos
+Los objetos DTO representan un conjunto de atributos
+
+Recomendacion
+
+"Cuando usted tenga una consulta cuyo select cedulaestudiante, ApellidoProfesor from Tabla1 Tabla2 Tabla2 
+where join" Lo mejor es  hacer una vista en la baseDatos
+Las vistas se mantinen en una base de datos : es como una seudoTabla
+Vistas no tienen clave primaria
+Tambien toca hacer el mapeo de tablas
+
+
+"Select max(numero) maximo from fact" 
+Solo devuelve un numero
+No se necesita mapear..
+el alias es importante: maximo
+
+
+$calculo=$res['maximo'];
+
+
+
+
+
+
+
+
+
